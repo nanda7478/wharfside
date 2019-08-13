@@ -1,0 +1,58 @@
+[14-Mar-2018 11:23:43 UTC] PHP Parse error:  syntax error, unexpected '?', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/page-templates/patio_page.php on line 16
+[14-Mar-2018 11:51:59 UTC] PHP Fatal error:  Cannot use [] for reading in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/page-templates/patio_page.php on line 19
+[15-Mar-2018 10:15:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_get_header_logo() in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/header.php:55
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/page-templates/Contact_page.php(6): get_header()
+#4 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/wharfside/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/wharfside/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/header.php on line 55
+[13-Jul-2018 05:24:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dynamic_side() in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/footer.php:19
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/home-page.php(354): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/wharfside/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/wharfside/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/footer.php on line 19
+[13-Jul-2018 09:02:13 UTC] PHP Parse error:  syntax error, unexpected ')' in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/contact-page.php on line 64
+[13-Jul-2018 09:02:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/contact-page.php on line 64
+[13-Jul-2018 09:02:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/contact-page.php on line 64
+[13-Jul-2018 09:02:59 UTC] PHP Parse error:  syntax error, unexpected ')' in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/contact-page.php on line 64
+[13-Jul-2018 09:03:18 UTC] PHP Parse error:  syntax error, unexpected ')' in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/contact-page.php on line 64
+[13-Jul-2018 09:05:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-hook.php on line 271
+[14-Jul-2018 10:55:38 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/menu-page.php on line 71
+[24-Jul-2018 09:59:41 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/menu-page.php:18
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/template-loader.php(74): include()
+#1 /home4/trimurty/demosrvr.com/wp/wharfside/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/wharfside/index.php(17): require('/home4/trimurty...')
+#3 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/themes/wharfside/custom-template/menu-page.php on line 18
+[31-Jul-2018 04:48:32 UTC] PHP Fatal error:  Uncaught Error: Class 'SSUtils' not found in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/plugins/sunrise-sunset/sunrisesunset.php:48
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-widget-factory.php(100): sunrise_sunset->sunrise_sunset()
+#1 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/widgets.php(115): WP_Widget_Factory->register('sunrise_sunset')
+#2 /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/plugins/sunrise-sunset/sunrisesunset.php(34): register_widget('sunrise_sunset')
+#3 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-hook.php(286): register_sunrise_sunset('')
+#4 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/widgets.php(1649): do_action('widgets_init')
+#7 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/cla in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/plugins/sunrise-sunset/sunrisesunset.php on line 48
+[31-Jul-2018 04:48:32 UTC] PHP Fatal error:  Uncaught Error: Class 'SSUtils' not found in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/plugins/sunrise-sunset/sunrisesunset.php:48
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-widget-factory.php(100): sunrise_sunset->sunrise_sunset()
+#1 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/widgets.php(115): WP_Widget_Factory->register('sunrise_sunset')
+#2 /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/plugins/sunrise-sunset/sunrisesunset.php(34): register_widget('sunrise_sunset')
+#3 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-hook.php(286): register_sunrise_sunset('')
+#4 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/widgets.php(1649): do_action('widgets_init')
+#7 /home4/trimurty/demosrvr.com/wp/wharfside/wp-includes/cla in /home4/trimurty/demosrvr.com/wp/wharfside/wp-content/plugins/sunrise-sunset/sunrisesunset.php on line 48

@@ -1,0 +1,353 @@
+
+/*
+Theme Name: Wharf side
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Widgets
+ * 11.0 - Content
+ *    11.1 - Header
+ *    11.2 - Posts and pages
+ *    11.3 - Post Formats
+ *    11.4 - Comments
+ *    11.5 - Sidebar
+ *    11.6 - Footer
+ * 12.0 - Media
+ *    12.1 - Captions
+ *    12.2 - Galleries
+ * 13.0 - Multisite
+ * 14.0 - Media Queries
+ *    14.1 - >= 710px
+ *    14.2 - >= 783px
+ *    14.3 - >= 910px
+ *    14.4 - >= 985px
+ *    14.5 - >= 1200px
+ * 15.0 - Print
+ */
+
+
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+ 
+ 
+   /*
+  
+
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Catamaran', sans-serif;
+
+    font-family: 'Muli', sans-serif;
+
+
+*/
+
+
+.menu-toggle { display: none; }
+
+body { font-family: 'Muli', sans-serif; color: #414042; font-size: 18px; }
+
+h1,
+h2,
+h3,
+h4 { font-family: 'Merriweather', serif; font-weight: 700; }
+
+ 
+.quick-list a:hover { text-decoration: underline; border:none; }
+
+.shadows { background: #000; opacity: 0.2; position: absolute; left: 0px; top: 0px; bottom: 0; right: 0; }
+
+img { max-width: 100%; height: auto; }
+
+.tab { display: table; height: 100%; vertical-align: middle; width:100%; }
+
+.tab-cell { display: table-cell; vertical-align: middle; }
+
+ul.inline { padding: 0px; margin: 0px; text-align: center; }
+
+ul.inline li { padding: 0px; margin: 0px; list-style: none; display: inline-block; }
+
+.btn-3 { border: 2px solid #fff; padding: 7px 15px; color: #fff; text-transform: uppercase; font-size: 14px; }
+
+.newsletter-form .wpcf7-submit,
+.btn-2 { background: #03356b; border:2px solid #03356b !important;   color: #fff; font-size: 14px; font-weight: 700; text-transform: uppercase; padding: 10px 30px;   cursor: pointer; }
+
+.newsletter-form .wpcf7-submit, .newsletter-form input.btn-2 { padding:10px 50px; }
+
+
+.block-list { padding: 0px; margin: 0px; list-style: none; }
+
+.block-list li { display: block; clear: both; list-style: none; }
+
+h5.style { font-family: 'signpainter_housescriptRg'; color: #0a202e; font-size: 32px; }
+
+.btn-3:hover { background:#03356b; border-color:#03356b; color:#fff; }
+
+.newsletter-form .wpcf7-submit:hover, .btn-2:hover { background:#fff; color:#03356b !important; border-color:#03356b !important; }
+
+.home .site-header a:hover { color:#03356b; text-decoration:none; }
+
+
+.home .darkHeader.site-header a:hover,
+.darkHeader .site-branding a:hover,
+.site-header a:hover { text-decoration:underline; color:#fff; }
+
+#book_an_event,
+#patio_bar_kickback { cursor:pointer; }
+
+@media (min-width:1300px) { 
+
+.home-image-content-section .contet-image-block { font-size:21px; }
+
+}
+
+@media (max-width:1199px) { 
+
+.more-info{ font-size:18px; }
+.drop_arrow img { margin-bottom:30px; }
+
+.wharfside_slider .carousel-caption-table-cell h1 { margin-bottom:20px; margin-top:15px; font-size:32px; line-height:44px; }
+.home-logo img { max-width:500px; }
+
+.home_wharfside_content{ padding:40px 0; }
+
+.home-image-content-section .contet-image-block{ padding:0px; }
+.video-book-event-section .col-sm-4 { padding:0 15px; }
+
+.market_expertise_content_section { padding:0 30px; }
+
+.market_expertise_image h2{ font-size:24px; }
+
+.contact-page-section{ padding-bottom:60px; }
+
+.top_header_menu li { padding:0 10px; }
+
+ }
+
+@media (max-width:1024px) { 
+
+body { font-size:14px; }
+
+.auick_resource { max-height:500px; padding:70px 0; }
+
+}
+
+@media (max-width:991px) { 
+
+.more-info { text-align:center; font-size:14px; }
+.auick_resource i { font-size:60px; }
+
+.quick-list { padding-bottom:10px; }
+
+.auick_resource { max-height:350px; }
+
+h2.white_heading { font-size:32px; }
+
+.home-image-content-section .contet-image-block{ padding:30px 0 15px 0; }
+
+.market_expertise_content_section { padding:0 10px; }
+.market_expertise_image { height:300px;  background-size:100%; }
+.market_expertise_image img { margin:5px 0; max-width:40px; }
+
+.market_expertise_image h2 { font-size:20px; }
+.market_expertise_content_section a{ font-size:20px; }
+.patio-inner-image img{ max-width:150px; margin-bottom:10px; }
+
+.btn-block3 { max-width:100%; width:100%; }
+
+.newsletter-form{ margin-bottom:10px; }
+
+.home-image-content-section .image-content{ width:100% !important; }
+
+.f-img{ display:none; }
+
+.carousel-indicators { display:none; }
+
+ 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+  
+    top: 0; z-index:99;
+    right: 0;
+    background-color: #03356b ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top:120px; 
+}
+
+.site-header .primary-menu a:hover { color:#fff !important; background:#0a202e; }  
+
+.sidenav a {
+   
+    transition: 0.3s;
+}
+
+.menu-info ul.social-header-menu li{ padding:5px; float:left; }
+
+.menu-info ul li{ float:none; display:block; padding:5px 0; }
+
+.right-header .primary-menu li:last-child, .menu-info ul li:last-child { padding-left:0px; }
+
+
+
+.site-header .container { font-size:16px; }
+.top_header_menu li a{ padding:10px 0; display:block; } 
+.top_header_menu li{ padding:0px 0; } 
+
+.site-header a:hover { color:#fff !important; }
+
+.right-header{ text-align:center; }
+.wharfside_header { padding:0; }
+.top_header_menu li{ display:block; clear:both; float:none; text-align:center; }
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.closebtn, .humbers{ display:block; margin:8px; }
+.humbers{ float:right; }
+
+
+.tab-content ul { margin:0px; }
+.tab-content ul li { width:100%; padding:10px 20px 10px 0px;  }
+.tab-content ul li .price-menu{ right:0px; }
+
+.top-side-button-box ul li {padding:0 5px; max-width:200px; }
+.top-side-button-box ul li .btn-2 { padding:10px 10px; font-size:13px; }
+ 
+ 
+ .ms-slide-info div{ padding:20px; font-size:24px; line-height:32px;  }
+  .ms-slide-info.ms-dir-h { min-height:70px !important; display:none; }
+
+.ms-slide-info{ margin-top:-80px; }
+.ms-thumb-frame { padding:0 0.5%; margin:5px 0!important; width:24% !important; min-width:24% !important;  }
+
+.ms-thumb-list.ms-dir-h { margin:10px -5px !important ; }
+
+ 
+
+ 
+.main-menu-slide-images .col-sm-3,
+.early-dining-slide-images .col-sm-3 { padding:0px; }
+
+.wharfside_header .col-md-3 { z-index:999; }
+
+ }
+
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+
+
+ }
+ 
+ @media (max-width:767px) { 
+
+ .carousel-indicators { display:none; }
+
+.wharfside_slider .carousel-caption-table-cell h1 { font-size:18px; margin:5px 0; }
+
+.home-logo img{ max-width:300px; }
+
+.more-info{ padding:0 10px; }
+
+.direction-lan,
+.sunset,
+.manasquan-inlet { float:none; padding:0 5px; display:inline-block; }
+
+.home_wharfside_content { padding:30px 0; }
+.home_wharfside_content p.para1 { margin:0px; }
+
+.quick-list li a { font-size:12px; }
+
+.page-template-menu-page .quick-list li a { font-size:14px; }
+.dropdown-item.active, .dropdown-item:active { background-color:#074088 ; color:#fff; }
+.quick-list li { padding:0 5px; }
+
+.quick-list li.nav-item.dropdown .dropdown-menu a.active  { color:#fff; }
+
+ 
+
+.page-id-14 .quick-list li.nav-item { display:none; }
+
+.quick-list li.nav-item.dropdown { display:inline-block; width:170px; }
+.quick-list li.nav-item.dropdown .dropdown-menu { top:10px!important; }
+.quick-list li.nav-item.dropdown .dropdown-menu a{ color:#000; }
+
+.newsletter-address-section,
+.video-book-event-section { padding:30px 0; }
+
+.video-book-social-icon{ padding:30px 0 0 0; }
+
+.newsletter-form{ width:100%; }
+
+.contact-page-section h2, .newsletter-address-section h2{ font-size:18px; }
+
+.tab-content ul li h4{ font-size:18px; }
+.tab-content h2 {  padding:20px 0; }
+
+h2.main-head { font-size:24px; margin:0 0 20px 0; }
+.nav-link{ padding:0px; }
+
+.inner-pages-banner { margin-bottom:30px; }
+
+.contact-page-section { padding-bottom:30px; }
+
+.inner-pages-banner { height:300px; }
+
+.big_heading { font-size:26px; }
+
+.wharfside_header .col-md-3 { width:70%; float:left;  }
+
+.wharfside_header .col-md-9 { width:30%; float:right;  }
+
+.top-side-button-box ul li {padding:0 5px; max-width:300px; display:block; clear:both; margin:10px auto; }
+.top-side-button-box ul { padding:0px 0 20px 0; }
+
+#sb_instagram{ margin:0px !important; }
+
+.ms-skin-default .ms-nav-next, .ms-skin-default .ms-nav-prev{ display:none !important; }
+
+ 
+.wharfside_slider .carousel-item { min-height:400px; }
+
+.custom-logo-link { max-width:200px;  display:block; }
+
+.ms-thumb-frame {   width:32% !important; min-width:32% !important;  }
+.ms-thumb-frame { height:100px !important; }
+.ms-thumb-frame img { height:auto !important; }
+ }
